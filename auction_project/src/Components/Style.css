@@ -1,0 +1,170 @@
+ .txtcolorD {
+    color: yellowgreen;
+}
+
+.txtcolorS {
+  font-size: 2.5rem;
+  color: #2bd7ee;
+}
+.navbar {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; 
+    z-index: 1000; 
+  }
+  
+
+/* Signin */
+
+ body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(135, 172, 187);
+  margin: 0;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  width: 350px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.extra-options {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} 
+
+  /* signup */
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background: linear-gradient(to right, #535b63, #c9dedf);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+  }
+
+  .container {
+    width: 50%;
+    max-width: 600px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+
+  h1 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #777;
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    background: #4facfe;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background: #00c3ff;
+  }
+
+  a {
+    color: #4facfe;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  } 
+ 
